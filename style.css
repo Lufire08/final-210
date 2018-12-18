@@ -1,0 +1,36 @@
+body {
+  font-family: Helvetica;
+  margin: 10;
+  padding: 0;
+  background-color: black;
+  color: greenyellow;
+}
+    
+}
+
+#container {
+  padding: 50px 0;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.link {
+  list-style: none;
+  color: gold;
+  font-size: 2em;
+    display: inline-block;
+}
+
+.link a {
+  color: goldenrod;
+    margin-right: 20px;
+}
+
+a {
+  color: goldenrod;
+  transition: color 500ms
+}
+
+a:hover {
+  color: skyblue;
+}
